@@ -1,0 +1,354 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body { font-family: 'Ubuntu Condensed', sans-serif; }
+.contener { width: 80%; margin: auto; }
+.header
+{
+    background-image: url(../img/3.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.header .shawdo
+{
+    background-color: rgba(37, 37, 37, 0.7);
+    height: 100vh;
+}
+.clr {clear: both;}
+.navbar{ color: #fffff7; padding-top: 20px;}
+.navbar .logo
+{
+    float: left;
+    width: 20%;
+    vertical-align: top;
+}
+.navbar .navigation
+{
+    width: 80%;
+    float: left;
+}
+.navbar h2 {font-size: 33px; letter-spacing: 5px;}
+.navbar h2 span {color: #42D299;}
+.navigation ul {list-style: none;float: right;}
+.navigation ul li {float: left; padding: 10px 25px 10px 25px;}
+.navigation ul li a
+{
+    text-decoration: none;
+    color: #fffff7;
+    font-size: 20px;
+}
+.header .text
+{
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    color: #fffff7;
+    text-align: center;
+}
+.header .text h2
+{
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.header .text h3
+{
+    font-size: 50px;
+    letter-spacing: 15px;
+    border-top: 4px solid #42D299;
+    border-bottom: 4px solid #42D299;
+}
+header .text h3 span {font-family: 'Rajdhani', sans-serif;}
+.icon {margin-top: 20px;}
+.icon span
+{
+    font-size: 24px;
+    padding-left: 10px;
+    color: #fffff7;
+    transition: all 1s ;
+}
+.icon:hover span {color: #42D299;}
+.aboutme
+{
+    overflow: hidden;
+    margin: 40px 0 ;
+}
+.aboutme .left
+{
+    width: 40%;
+    float: left;
+    background-image: url('../img/dots.png');
+}
+.left img
+{
+    width: 100%;
+    padding: 0px 0px 20px 20px;
+}
+.aboutme .right
+{
+    width: 60%;
+    float: left;
+    padding-left: 25px;
+}
+.right h5
+{
+    padding: 3px 0 25px 0;
+    font-size: 18px;
+    color: #7a8fb3;
+    font-family: 'Rajdhani', sans-serif;
+}
+.right h2 
+{
+    font-size: 32px;
+    color: #243A5E;
+}
+.right p
+{
+    font-size: 18px;
+    line-height: 30px;
+    color: #7a8fb3;
+    text-align: justify;
+}
+.right p span
+{
+    font-weight: bolder;
+    color: #243A5E;
+}
+.back
+{
+    background-color: #DBDADA;
+    height: 22px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.back .front
+{
+    background-color: #243A5E;
+    width: 80%;
+    height: 22px;
+    color: #fffff7;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: all 2s;
+}
+.text1
+{
+    float: left;
+    font-weight: 150;
+    padding: 2px 0px 0px 8px;
+}
+.percent
+{
+    float: right;
+    font-weight: 150;
+    padding: 2.5px 8px 0px 0px;
+}
+.back .front2
+{
+    background-color: #243A5E;
+    width: 95%;
+    height: 22px;
+    color: #fffff7;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: all 2s;
+}
+.back .front3
+{
+    background-color: #243A5E;
+    width: 90%;
+    height: 22px;
+    color: #fffff7;
+    border-radius: 7px;
+    font-size: 14px;
+    transition: all 2s;
+}
+.right .button1
+{
+    margin-top: 40px;
+    border: none;
+    background-color: #243A5E;
+    color: #fffff7;
+    padding: 13px 20px ;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.right .button1:hover
+{
+    background-color: #fffff7;
+    color: #243A5E;
+    border: 1px solid #243A5E;
+    padding: 12px 20px ;
+}
+.right .button2
+{
+    margin-top: 40px;
+    border: none;
+    background-color: #fffff7;
+    color: #243A5E;
+    border: 1px solid #243A5E;
+    padding: 12px 20px ;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right .button2:hover
+{
+    background-color: #243A5E;
+    color: #fffff7;
+    padding: 13px 20px ;
+    border: none;
+}
+.Services
+{
+    background-color: #F7F7F7;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.divh2 h2
+{
+    font-size: 40px;
+    margin: 40px 0;
+    letter-spacing: 3px;
+}
+.Services .media
+{
+    width: 33.3333%;
+    float: left;
+    padding: 0 15px 30px 15px;
+}
+.media .contant5
+{
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 3%;
+}
+.Services .media span 
+{
+    background-color: #F7F7F7;  
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.contant5:hover span
+{
+    background-color: #243A5E;  
+    color: #42D299;
+}
+.media .contant5 h3
+{
+    margin: 40px 0 20px ;
+    color: #243A5E;
+    font-size: 22px;
+}
+.media .contant5 p
+{
+    font-size: 18px;
+    color: #1a3a70ce;
+}
+.Portfolio
+{
+    text-align: center;
+    padding-top: 40px;
+    overflow: hidden;
+    background-color: #a9ffdd21;
+}
+.Portfolio h3
+{
+    font-size: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 3px;
+}
+.Portfolio .gallry
+{
+    width: 33.3333%;
+    padding: 10px;
+    float: left;
+    position: relative;
+}
+.gallry img
+{
+    width: 100%;
+}
+.gallry .text
+{
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 35px;
+    bottom: 18px;
+    left: 17px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1s;
+}
+.gallry:hover .text
+{
+    top: 17px;
+    opacity: 0.9;
+}
+.gallry .title
+{
+    position: relative;
+    top: 90px;
+
+}
+.gallry .title h3
+{
+    font-size: 20px;
+    padding: 0  0 20px;
+    transition: all 1s ;
+    color: #243A5E;
+    position: relative;
+    bottom: 35px;
+    visibility: hidden;
+}
+.gallry:hover .title h3
+{
+    transform: translate(0px, 40px);
+    visibility: visible;
+}  
+.gallry .fa-laptop-code
+{
+    font-size: 20px;
+    color: #243A5E;
+    position: relative;
+    top: 17px;
+    padding: 9px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+.span_icon
+{
+    transition: all 1s ;
+    visibility: hidden;
+}
+.gallry:hover .span_icon
+{
+    transform: translate(0px, -20px);  
+    visibility: visible;
+}
+.fa-laptop-code:hover
+{
+    background-color: #243A5E;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
